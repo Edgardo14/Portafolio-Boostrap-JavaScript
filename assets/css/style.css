@@ -1,0 +1,84 @@
+body{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(152,123,163,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: gainsboro;
+}
+
+#div_inicio{
+    display: flex;
+    background-image: url("../img/background.jpg");
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+#imgPerfil{
+    border-radius:100%; 
+    width:40%; 
+    height: auto;
+}
+
+.navbar-brand{
+    margin-right: -10%;
+}
+
+#div_sobreMi p{
+    text-align: justify;
+}
+
+#div_contacto{
+    border-radius: 2rem;
+    margin: 2rem;
+    background-color: white;
+    color: black;
+}
+
+#div_sobreMi, #div_resumen, #div_habilidades, #div_portafolio{
+    border-radius: 2rem;
+    margin: 2rem;
+    background-color: #d5dfff;
+    color: #6d45e7;
+}
+
+.container .popup-image{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.container .popup-image span{
+    position: inherit;
+    top: 0;
+    right: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.container .popup-image img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    width: 750px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px){
+    .container .popup-image img{
+        width: 95%;
+    }
+}

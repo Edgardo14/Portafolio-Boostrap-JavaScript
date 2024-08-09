@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Edgardo Arenas</title>
+
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css" rel="stylesheet" />
+
+    <!-- CSS MAIN -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand">Edgardo Arenas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav mx-auto">
+                    <a class="nav-link" aria-current="page" onclick="mostrar(`inicio`)">Inicio</a>
+                    <a class="nav-link" onclick="mostrar(`sobreMi`)">Sobre mi</a>
+                    <a class="nav-link" onclick="mostrar(`habilidades`)">Habilidades</a>
+                    <a class="nav-link" onclick="mostrar(`resumen`)">Resumen</a>
+                    <a class="nav-link" onclick="mostrar(`portafolio`)">Portafolio</a>
+                    <a class="nav-link" onclick="mostrar(`contacto`)">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- FIN NAVBAR -->
+
+    <div id="div_inicio">
+        <div class="container mt-5" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/Foto Perfil.JPEG" alt="" id="imgPerfil">
+            <br><br>
+            <div class="text-center">
+                <a href="https://www.linkedin.com/in/edgardo-arenas-g%C3%B3mez-8b44aa2a6/" target="_blank"><i
+                        class="fab fa-linkedin fa-2x"></i></i></a>
+                <a href="https://github.com/Edgardo14" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            </div>
+            <h2>Edgardo Arenas</h2>
+            <p>
+                <span id="spanInicio"></span>
+            </p>
+        </div>
+    </div>
+
+    <div class="mt-3" id="div_sobreMi">
+        <!-- Section Title -->
+        <div class="container p-3">
+            <h2>Sobre mi</h2>
+            <p>
+                Soy una persona altamente motivada con habilidades
+                técnicas especializadas en lenguajes de programación
+                como Java, Python y el manejo de bases de datos. Mi
+                experiencia abarca desde el análisis de datos con Python
+                hasta el modelado básico de desarrollo web utilizando
+                HTML, CSS, JavaScript y PHP. Además, tengo un nivel
+                medio de habilidades en Word y Excel, con conocimientos
+                básicos de análisis de datos utilizando Python. Mi enfoque
+                se centra en la resolución de problemas y la
+                implementación efectiva de soluciones técnicas.
+            </p>
+        </div><!-- End Section Title -->
+
+        <div class="container">
+
+            <div class="row gy-4">
+                <div class="col-lg-5">
+                    <img src="assets/img/Foto Perfil.JPEG" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-7 content">
+                    <h2>Programador &amp; Desarrollador Web.</h2>
+                    <p class="fst-italic py-3">
+                        Actualmente, me encuentro dedicado al fortalecimiento de
+                        mis habilidades en desarrollo web y programación.
+                        Estoy estudiando JavaScript de manera autodidacta
+                        para profundizar en mi conocimiento del lenguaje y
+                        su aplicación en proyectos web. Además, estoy cursando
+                        una capacitación en Full Stack Java a través de SENCE
+                        en eCamp de Edutecno, donde estoy adquiriendo
+                        competencias avanzadas en desarrollo de aplicaciones
+                        completas, abarcando tanto el front-end como el back-end.
+                        <br><br>
+                        Durante este periodo, me he enfocado en fortalecer mi
+                        comprensión de las tecnologías clave en el ámbito del
+                        desarrollo web y en prepararme para asumir roles más
+                        desafiantes en el área de la ingeniería informática.
+                    </p>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <ul>
+                                <li><strong>Fecha de Nacimiento:</strong> <span>18 de Abril 1995</span></li>
+                                <li><strong>Telefono:</strong> <span>+569 77510279</span></li>
+                                <li><strong>Ciudad:</strong> <span>Coronel, Región del BioBio</span></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul>
+                                <li><strong>Edad:</strong> <span>29 años</span></li>
+                                <li><strong>Título:</strong> <span>Licenciado en Ciencias de la Ingeniería</span></li>
+                                <li><strong>Correo:</strong> <span>edgardo18821@e-camp.cl</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="py-3">
+                        A nivel personal, destaco por mi adaptabilidad y flexibilidad,
+                        lo que me permite abordar desafíos con una mentalidad
+                        abierta. Mi capacidad de organización y gestión del tiempo
+                        respalda la entrega puntual de proyectos. Soy un
+                        colaborador eficaz en entornos de equipo, aportando una
+                        actitud proactiva y resultados orientados.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="mt-3" id="div_habilidades">
+        <!-- Section Title -->
+        <div class="container p-3">
+            <h2>Habilidades</h2>
+            <p>
+                A lo largo de mi formación y experiencia,
+                he adquirido una sólida base de habilidades
+                técnicas y blandas que me permiten abordar
+                desafíos con eficiencia y adaptabilidad.
+                Estas competencias me han preparado para
+                contribuir de manera efectiva en proyectos
+                de desarrollo y en entornos de trabajo colaborativos.
+            </p>
+        </div><!-- End Section Title -->
+
+        <div class="container">
+            <div class="row">
+                <br>
+                <div class="col-lg-6">
+                    <div class="">
+                        <div class="content">
+                            <h2 class="p-3">Habilidades Técnicas</h2>
+                            <ul class="p-4">
+                                <li><span>Programación en Java y Python.</span></li>
+                                <li><span>Manejo de bases de datos.</span></li>
+                                <li><span>Conocimientos básicos de análisis de datos con Python.</span></li>
+                                <li><span>Experiencia en desarrollo web con HTML, CSS, JavaScript y PHP.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="content">
+                        <h2 class="p-3">Habilidades Blandas</h2>
+                        <ul class="p-4">
+                            <li><span>Adaptabilidad.</span></li>
+                            <li><span>Flexibilidad.</span></li>
+                            <li><span>Organización.</span></li>
+                            <li><span>Gestión del tiempo.</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-3" id="div_resumen">
+
+        <!-- Section Title -->
+        <div class="container p-3" data-aos="fade-up">
+            <h2>Experiencia Laboral</h2>
+            <p>
+                A lo largo de mis experiencias laborales,
+                he tenido la oportunidad de trabajar en equipo
+                para alcanzar objetivos y metas comunes, lo que
+                ha fortalecido significativamente mi capacidad de
+                colaborar con otros. Aunque a veces me cuesta
+                comunicarme con fluidez, estas experiencias me
+                han impulsado a mejorar en este aspecto,
+                permitiéndome desarrollar una mayor eficacia en
+                la comunicación y en la coordinación de tareas
+                dentro de un equipo.
+            </p>
+        </div><!-- End Section Title -->
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="resume-title">Formación</h3>
+                    <div class="resume-item">
+                        <h4>Licenciado en Ciencias de la Ingeniería.</h4>
+                        <h5>2021</h5>
+                        <p><em>Universidad del Bío-Bío. Chile</em></p>
+                    </div><!-- Edn Resume Item -->
+
+                    <div class="resume-item">
+                        <h4>Ingeniería Civil en Informática.</h4>
+                        <h5>En Pausa</h5>
+                        <p><em>Universidad del Bío-Bío. Chile</em></p>
+                        <p>
+                            Actualmente, me encuentro en pausa
+                            en mis estudios, ya que para inscribir
+                            mi último ramo, el proyecto de título,
+                            necesito regularizar el pago de un
+                            semestre pendiente. Debido a esta situación,
+                            estoy en busca de trabajo que me permita
+                            cubrir estos costos y completar mi carrera.
+                        </p>
+                    </div><!-- Edn Resume Item -->
+
+                    <div class="resume-item">
+                        <h4>Bootcamp Desarrollo de aplicaciones Full Stack Java Trainee.</h4>
+                        <h5>En Curso</h5>
+                        <p><em>Edutecno Capacitaciones, E-Camp.</em></p>
+                        <p>
+                            A través del programa SENCE me encuentro cursando
+                            un bootcamp intensivo en Full Stack Java,
+                            donde estoy adquiriendo competencias avanzadas
+                            en desarrollo web, abarcando tanto front-end como back-end.
+                        </p>
+                    </div><!-- Edn Resume Item -->
+
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+
+                    <h3 class="resume-title">Experiencia Laboral</h3>
+                    <!-- <div class="resume-item">
+                    <h4>Ayudante de Docencia</h4>
+                    <h5>Semestre 2014-2, Semestre 2016-2, Semestre 2020-2</h5>
+                    <p><em>Universidad del Bío-Bío - Facultad de Ciencias Empresariales. Concepción</em></p>
+                    <p>
+                      Colaboré como ayudante de docencia en diversas clases del departamento, entre ellas, 
+                      <strong><i>"Programación"</i></strong>,  
+                      <strong><i>"Lenguaje y Programación"</i></strong> e  
+                      <strong><i>"Inteligencia Artificial"</i></strong>. <br>
+                      Durante mi participación, dirigí sesiones de tutoría y revisión diseñadas para ofrecer a los estudiantes 
+                      un apoyo integral en la comprensión de los conceptos clave. Mi enfoque se centró en proporcionar 
+                      explicaciones claras y resolver dudas, facilitando así un aprendizaje efectivo.
+                      Adicionalmente, desempeñé un papel activo en la creación de material didáctico, así como en la 
+                      evaluación de tareas, trabajos semestrales prácticos y evaluaciones escritas.
+                      <br><br>
+                      <em>Esta experiencia me permitió desarrollar habilidades 
+                      en la preparación de material educativo y la evaluación justa y 
+                      consistente del rendimiento de los estudiantes.
+                      Colaboré con los profesores para asegurar que los semestres transcurrieran de acuerdo con los 
+                      cronogramas establecidos, garantizando así un entorno académico efectivo y organizado.</em>
+                    </p>
+                  </div>   -->
+                    <!-- Edn Resume Item -->
+
+                    <div class="resume-item">
+                        <h4>Practicante en Requerimientos para el Área de Pruebas</h4>
+                        <h5>07/01/2019 - 22/02/2019</h5>
+                        <p><em>Zenta Group Sucursal Concepción</em></p>
+                        <p>
+                            Durante mi tiempo como Practicante en Requerimientos para el Área de Pruebas en Zenta Group,
+                            tuve el privilegio de contribuir activamente al proyecto Zentown. Mis responsabilidades y
+                            tareas
+                            incluyeron:
+                        </p>
+                        <ul>
+                            <li>Construcción de módulos en el proyecto Zentown, Zenta:
+                                <ul>
+                                    <li>
+                                        Desarrollo web centrado en el lado del cliente (Front-End) utilizando
+                                        tecnologías como
+                                        Laravel PHP, Javascript, Jquery, HTML, CSS (excluyendo el desarrollo de Base de
+                                        Datos, Microservicios y API REST en el Back-End, que ya estaban implementados y
+                                        solo fueron utilizados).
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>Mejoras para el módulo de vacaciones en la plataforma Zentown.</li>
+                            <li>Construcción del sistema "control de horas" en la plataforma Zentown.</li>
+                            <li>Mejoras en la sección "logros Zenta" en la plataforma Zentown.</li>
+                            <li>Mejoras en el anexo de contrato que se generaban dinámicamente en la plataforma Zentown.
+                            </li>
+                            <li>Manejo de control de versiones con Bitbucket para el proyecto Zentown.</li>
+                        </ul>
+                        <em>
+                            Estas responsabilidades no solo me permitieron desarrollar habilidades prácticas en el
+                            desarrollo
+                            web y la gestión de proyectos, sino que también contribuyeron al éxito general del proyecto
+                            Zentown en Zenta Group
+                        </em><br><br>
+                    </div><!-- Edn Resume Item -->
+
+                    <div class="resume-item">
+                        <h4>
+                            Participante en el Análisis de Informes y
+                            Datos de la Salmonicultura para Implementación de
+                            Machine Learning con Python
+                        </h4>
+                        <h5>Semestre 2021-2</h5>
+                        <p><em>Convenio de Estudio - Universidad de Los Lagos e Intesal Puerto Montt</em></p>
+                        <p>
+                            Durante mi participación en el convenio de estudio entre la Universidad de Los Lagos e
+                            Intesal en
+                            Puerto Montt, colaboré en el análisis de informes y datos de la salmonicultura con el
+                            objetivo de
+                            implementar técnicas de Machine Learning con Python. Mis responsabilidades y contribuciones
+                            incluyeron:
+                        </p>
+                        <ul>
+                            <li>Lectura de informes relacionados con la salmonicultura.</li>
+                            <li>Limpieza de datos para garantizar la calidad y la coherencia.</li>
+                            <li>Interpretación de datos para identificar patrones y tendencias relevantes.</li>
+                            <li>MParticipación activa en reuniones para discutir estrategias y enfoques.</li>
+                        </ul>
+                        <p>
+                            Estas responsabilidades no solo me permitieron desarrollar habilidades prácticas en el
+                            desarrollo
+                            web y la gestión de proyectos, sino que también contribuyeron al éxito general del proyecto
+                            Zentown en Zenta Group
+                        </p>
+                    </div><!-- Edn Resume Item -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-3 p-2" id="div_portafolio">
+        <div class="container">
+            <div class="row gy-4">
+              <div class="col-lg-5">
+                <div id="modulo2Sesion5" class="carousel slide image-container">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/img/portfolio/Sesion 5/Sesion 5 PC.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/portfolio/Sesion 5/Sesion 5 Laptop.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/portfolio/Sesion 5/Sesion 5 Tablet.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/portfolio/Sesion 5/Sesion 5 Movil.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#modulo2Sesion5" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#modulo2Sesion5" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                  </button>
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+                  <h2>Bootcamp Modulo 2 Sesión 5</h2>
+                  <p>
+                    Evaluación correspondiente a la sesión 5 
+                    del modulo 2. Consiste en crear un sitio 
+                    web que contenga un navbar y contenidos con 
+                    3 tarjetas. Dicho sitio debe ser responsivo gracias a Boostrap
+                  </p>
+                </div>
+              </div>
+            </div>
+    
+            <div class="row gy-4">
+              <div class="col-lg-5">
+                <div id="modulo2Sesion6" class="carousel slide image-container">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/img/portfolio/Sesion 6/Sesion 6 PC.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/portfolio/Sesion 6/Sesion 6 Laptop.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/portfolio/Sesion 6/Sesion 6 Tablet.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/portfolio/Sesion 6/Sesion 6 movil.png" class="d-block w-100"  alt="...">
+                    </div>
+                  </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#modulo2Sesion6" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#modulo2Sesion6" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+                  <h2>Bootcamp Modulo 2 Sesión 6</h2>
+                  <p>
+                    Evaluación correspondiente a la sesión 6 
+                    del modulo 2. Consiste en crear la pagina 
+                    destinada a comprar pasajes (no funcional) 
+                    para la pagina de aerolinea del modulo 5. 
+                    Dicho sitio debe ser responsivo gracias a Boostrap
+                  </p>
+                </div>
+                
+              </div>
+            </div>
+    
+    
+            <div class="row gy-4">
+              <div class="col-lg-5">
+                <div id="modulo2Sesion7" class="carousel slide image-container">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/img/portfolio/Sesion 7/Sesion 7 0.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/portfolio/Sesion 7/Sesion 7.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#modulo2Sesion7" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#modulo2Sesion7" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Siguiente</span>
+                    </button>
+                  </div>
+                
+              </div>
+              <div class="col-lg-7">
+                <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+                  <h2>Bootcamp Modulo 2 Sesión 7</h2>
+                  <p>
+                    Evaluación correspondiente a la 
+                    sesión 7 del modulo 2. Consiste en 
+                    crear un menú bancario para poner en 
+                    practica lo aprendido de javascript. Solo se usa JS
+                  </p>
+                </div>
+                
+              </div>
+            </div>
+    
+    
+            <div class="row gy-4">
+              <div class="col-lg-5">
+               <div id="modulo2Sesion9" class="carousel slide image-container">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/img/portfolio/Sesion 9/Sesion 9 PC.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#modulo2Sesion9" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#modulo2Sesion9" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                  </button>
+                </div> 
+              </div>
+              <div class="col-lg-7">
+                <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+                  <h2>Bootcamp Modulo 2 Sesión 9</h2>
+                  <p>
+                    Evaluación correspondiente a 
+                    la sesión 9 del modulo 2. 
+                    Consiste en agregar y quitar 
+                    tareas de una lista con js con la manipulacion de nodos de las etiquetas
+                  </p>
+                </div>
+              </div>
+                
+            </div>
+    
+            <div class="row gy-4">
+              <div class="col-lg-5">
+                <div id="modulo2Sesion10" class="carousel slide image-container">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/img/portfolio/Sesion 10/Sesion 10 PC.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/portfolio/Sesion 10/Sesion 10 PC 2.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#modulo2Sesion10" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#modulo2Sesion10" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                  </button>
+                </div>
+              </div>
+    
+              <div class="col-lg-7">
+                <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+                  <h2>Bootcamp Modulo 2 Sesión 10</h2>
+                  <p>
+                    Evaluación correspondiente a la 
+                    sesión 10 del modulo 2. Consiste 
+                    en agregar la funcion de mostrar mas 
+                    detalles a las tarjetas con jquery y familiarizarse con el lenguaje.
+                  </p>
+                </div>
+              </div>
+    
+            </div>
+    
+        </div>
+
+        <!-- POPUP IMAGENES -->
+        <div class="container">
+            <div class="popup-image">
+                <span>&times;</span>
+                <img src="" alt="">  
+            </div>
+        </div>
+
+    </div>
+
+    <div class="mt-2 pb-4" id="div_contacto">
+        <!-- Section Title -->
+        <div class="container m-2 p-4">
+            <h2 class="ms-4 pt-4">Contacto</h2>
+        </div><!-- End Section Title -->
+      
+        <div class="container left">
+            <div class="row gy-4">
+    
+                <div class="col-lg-5">
+        
+                    <div class="info-wrap">
+                    <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fas fa-map-location fa-2x"></i>
+                        <div>
+                        <h4>Dirección</h4>
+                        <p>Coronel, Región del BioBio</p>
+                        </div>
+                    </div><!-- End Info Item -->
+        
+                    <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fas fa-mobile-screen-button fa-2x"></i>
+                        <div>
+                        <h4>Teléfono</h4>
+                        <p>+56 977510279</p>
+                        </div>
+                    </div><!-- End Info Item -->
+        
+                    <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                        <i class="fas fa-envelope-open fa-2x"></i>
+                        <div class="col-7">
+                        <h4>Correo</h4>
+                        <div class="input-group">
+                            <input type="text" class="form-control" value="edgardo18821@e-camp.cl" id="correoContacto" disabled>
+                            <span class="input-group-text" id="botonCorreo" title="copiar">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+                                <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1z"></path>
+                                <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0z"></path>
+                            </svg>
+                            </span>
+                        </div>
+                        </div>
+                    </div><!-- End Info Item -->
+                    <br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3185.1683261922362!2d-73.14778092340526!3d-37.02963268963341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669c1352819677d%3A0xdc3129f846145d0e!2sCoronel!5e0!3m2!1ses-419!2scl!4v1723152059458!5m2!1ses-419!2scl" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+    
+                <div class="col-lg-7">
+                    <form action="" method="" class="php-email-form needs-validation" data-aos="fade-up" data-aos-delay="200" id="formularioContacto">
+                    <div class="row gy-4">
+        
+                        <div class="col-md-6">
+                        <label for="name-field" class="pb-2">Nombre</label>
+                        <input type="text" name="name" id="name-field" class="form-control" required pattern="^[a-zA-Z]{3,}$">
+                        </div>
+        
+                        <div class="col-md-6">
+                        <label for="email-field" class="pb-2">Correo</label>
+                        <input type="email" class="form-control" name="email" id="email-field" required pattern="^[^@]+@[^@]+\.[a-zA-Z]{2,}$">
+                        </div>
+        
+                        <div class="col-md-12">
+                        <label for="subject-field" class="pb-2">Asunto</label>
+                        <input type="text" class="form-control" name="subject" id="subject-field" required pattern="^[a-zA-Z]{3,}$">
+                        </div>
+        
+                        <div class="col-md-12">
+                        <label for="message-field" class="pb-2">Mensaje</label>
+                        <textarea class="form-control" name="message" rows="10" id="message-field" required minlength="3"></textarea>
+                        </div>
+        
+                        <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary" id="botonEnviar">Enviar Mensaje</button>
+                        </div>
+                    </div>
+                    </form>
+                </div><!-- End Contact Form -->
+    
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+    <!-- js main -->
+    <script src="assets/js/codigo.js"></script>
+
+    <!-- boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- MDB -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.umd.min.js"></script>
+</body>
+
+</html>
